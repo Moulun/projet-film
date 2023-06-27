@@ -1,0 +1,74 @@
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+
+
+
+}
+
+.cards{
+   padding: 50px;
+   border: 2px solid;
+   border-color: rgb(167, 167, 167);
+   width: 400px;
+   margin: 50px;
+   background-color: rgba(189, 189, 189, 0.442);
+   box-shadow: 0 0 30px black;
+  
+   
+   
+   
+
+
+
+
+}
+
+img{
+    height: 400px;
+}
+
+.bandeannonce{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+}
+
+
+@media  only screen and (max-width:750px){
+    section {
+       
+        flex-basis: 100%;
+        }
+    }
+     
+    @media  only screen  and (max-width:750px)and (min-width:999px){
+        section {
+           flex-basis: calc(40%);
+        
+            }
+        }
+
+    @media only screen and (max-width:1000px){
+        section{
+            flex-basis: calc(40%-20%);
+        }
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        
+    }
+    li, a {
+        list-style-type: none;
+        display: inline;
+        padding: 20px;
+        color: black;
+
+    }
+
